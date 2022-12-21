@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header1{
+    width: 100%;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+.header1 li{
+    display: inline-block;
+    margin: 0 25px;
+    list-style-type: none;
+}
+
+.header1 ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+}

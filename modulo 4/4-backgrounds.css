@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+
+.bg{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+
+    /* backgrounds */
+
+    background-color: darkblue;
+    /* definir imagem de fundo */
+     background-image: url(imagens/RON_1077.JPG);
+     /* tamanho (size) do background */
+     /* o primeiro valor define a largura
+     o segundo valor define a autura */
+     background-size: contain; /*CONTAIN significa que o nosso elemento vai conter aimagem, COVER quer dizer que ao diminuir
+    a tela cobrimos a imagem*/
+     /* usamos para repetição de imagens */
+     background-repeat: no-repeat; /* repeat, repeat-y, repeat-x.*/
+     /* posicionar imagem */
+     background-position: 50% 50%;
+     
+}

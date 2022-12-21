@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário de contato</title>
+    <link rel="stylesheet" href="9-formulário de contato.css">
+</head>
+<body>
+
+   <form>
+
+    <!-- cria um grupo de formulário especifico, cria um compo  -->
+    <fieldset>
+
+        <!-- legenda do nosso formulário --> <legend>formulário de contato</legend>
+    <div><input class="input" type="text" name="nome" placeholder="digite seu nome"></div>
+    <!-- placeholder cria um campo especifico como o campo de nome-->
+    <div><input class="input" type="text" name="email" placeholder="digite seu e-mail"></div>
+
+    <div>
+        <select name="lista">
+            <option disabled selected>qual sua idade?</option>
+            <option value="13">13</option>
+            <option value="15+">15+</option>
+            <option value="18+">18+</option>
+        </select>
+    </div>
+    <h2>qual sua cidade?</h2>
+        <div class="radio">
+            
+            <div>
+                <input type="radio" name="cidade" id="fl" value="Florianópolis"><label for="fl">Florianópolis</label>
+            </div>
+            <div>
+                <input type="radio" name="cidade" id="sp" value="São Paulo"><label for="sp">São Paulo</label>
+            </div>
+            <div>
+                <input type="radio" name="cidade" id="rj" value="Rio de Janeiro"><label for="rj">Rio de Janeiro</label>
+            </div>
+            <!-- no input radio so pode escolher uma vez e ele tem que ter nomes de mesmo grupo(name)  -->
+        </div>
+
+        <h2>qual sua atividade favorita?</h2>
+        <div class="checkbox">   
+            <div>
+                <input type="checkbox" name="tcv[]" id="tcv" value="tocar violão"><label for="tcv">tocar violão</label>
+            </div>
+            <div>
+                <input type="checkbox" name="esportv[]" id="esp" value="esporte"><label for="esp">esporte</label>
+            </div>
+            <div>
+                <input type="checkbox" name="leitura[]" id="lei" value="leitura"><label for="lei">leitura</label>
+            </div>
+        </div>
+<!-- value é valor que vai para o back-end -->
+
+        <div> 
+            <textarea name="observação" placeholder="possui alguma observação?"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" name="acao" value="enviar">
+        </div>
+    </fieldset>
+
+   </form> 
+   <!-- <div class="color2"></div> -->
+<br>
+</body>
+
+
+<!--                     resumo:
+
+tags:
+ 
+1- form: cria formularios
+2- fieldst: cria um grupo de formulário
+3- label: espande a área clicavel de um input
+obs: usamos for associado ao id ou seja com mesmo valor para fazer das letras uma área que ativa a caixanha
+.......................................
+
+tipos de input:
+
+1- text: texto
+2- email: email
+3- select + option: cria opções para marcar option são as opções
+4- checkbox: cria caixinhas de seleção ais quais podem se marcadas quantas quizer
+5- radio: mesma função do checkbox no entanto so pode ser marcada uma vez
+
+
+
+-->
+</html>

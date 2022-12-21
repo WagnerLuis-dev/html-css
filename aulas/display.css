@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+}
+
+.center{
+    background-color: aqua;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.texto{
+
+/*metodo 1 para textos um do
+lado do outo*/
+
+    /*alinhando texto no topo*/
+    /*alinhamento na vertical*/
+    vertical-align: top;
+    /* fazendo com que o texto va para
+    traz 4px
+    margin-right: -4px;*/ 
+    margin: 10px 17px;
+    display: inline-block;
+    /*diminuindo a largura do texto para métade de 1280px*/
+    width: 600px;
+    margin-top: 30px;
+    
+    
+}
+
+
+/*metodo 2 */
+.center2{
+    background-color: blueviolet;
+    width: 1280px;
+    margin: 0 auto;
+    
+
+}
+
+.texto2 {
+    /*rgba é para acrecentar opacidade*/
+    border: 40px solid rgba(80, 191, 255,0);
+    width: 640px;
+    margin-right: -4px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+

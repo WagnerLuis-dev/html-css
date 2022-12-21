@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+/* seletores de atributos */
+
+/*seletor = para elementos que tenha
+um valor específicado*/
+
+a[href="https://www.youtube.com/?feature=ytca"]{
+    color:rgb(0, 255, 89);
+    background-color: blue;
+    margin-bottom: 10px;
+    display: inline-block;
+
+}
+
+/* seletor *= usado selecionar uma 
+palavra especifica, não necessariamente precisa
+ter a palavra completa */
+/*atacar as divs com id que a palavra part*/
+div[id*="part"]{
+    color: tomato;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+
+/* seletor $= usado para atacar valores que terminam 
+com uma palavra especificada */
+a[href$=".br"]{
+    color: rgb(0, 255, 0);
+    display: inline-block;
+    margin: 10px 0;
+    
+}
+
+/* seletor ^= atacar valores que começam 
+com una palavra especificada*/
+h1[id^="meus"]{
+    color: darkgoldenrod;
+}
+
+/* seletor ~= usado elementos com uma mesma palavra 
+especificada */
+/* usamos * seletor universal pois estou
+trabalhando varias tags */
+*[class~="title"]{
+    background-color: aqua
+}
+
+

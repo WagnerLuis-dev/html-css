@@ -1,0 +1,11 @@
+/*
+id e class css externo
+ataque ao h1 apenas se ele estiver dentro > da div com id div1*/
+
+#div1 > h1{
+    color: aqua;
+}
+
+.div2 >h1{
+    color: blue;
+}

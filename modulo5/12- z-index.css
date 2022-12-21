@@ -1,0 +1,45 @@
+*{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+
+.slider{
+    background-color: antiquewhite;
+    width: 98%;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.box{
+    
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background-color: aqua;
+}
+
+/* z-index tem a haver com o eixo da profundidade a ordem que elemestos apareceram */
+
+.one{
+    background-color: blue;
+    z-index: 3;
+}
+
+.two{
+    left: 20px;
+    background-color: black;
+    z-index: 2;
+}
+
+.there{
+    left: 40px;
+    z-index: 1;
+    background-color: blueviolet;
+}

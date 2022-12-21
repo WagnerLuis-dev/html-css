@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body,
+html {
+    height: 100%;
+
+}
+
+.center {
+    /*nossa caixa acrescenta pixel nos lados
+    quando colocamos o padding*/
+    box-sizing: border-box;
+    width: 1280px;
+    margin: 0 auto;
+    background-color: aquamarine;
+    padding: 30px 10px;
+
+
+}
+
+.texto {
+    padding-left: 30px;
+    /*margin:50px 30px ;*/
+}

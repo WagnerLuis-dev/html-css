@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+html,body{
+    height: 100%;
+}
+
+.pai{
+    background-color: blue;
+    margin: 0 auto;
+    width: 1380px;
+}
+
+.overflowscroll{
+    /* cria um scroll quando o texto
+    uktrapassa o espaço delimitado */
+    background-color: aquamarine;
+    width:300px;
+    height: 170px;
+    display: inline-block;
+    overflow: scroll;
+    vertical-align: 85px;
+    margin-right: 20px;
+
+
+}
+
+.overflowvisible{
+    /* deixa o texto visivel */
+    background-color: aquamarine;
+    width:300px;
+    height: 170px;
+    margin: 20px auto 150px;
+    overflow: visible;
+    display: inline-block;
+    margin-left: -4px;
+
+
+}
+
+
+.overflowhidden{
+    /* esconde o texto */
+    background-color: aquamarine;
+    width: 300px;
+    height: 170px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: 85px;
+
+}
+
+
+.overflowauto{
+    /*  */
+    background-color: aquamarine;
+    width: 300px;
+    height: 170px;
+    overflow: auto;
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align:85px;
+    
+}
+
+.clear{
+    /* limpando div */
+    clear: both;
+}
+
+.display{
+    /* esconde o elemento */
+    background-color: aquamarine;
+    width: 300px;
+    display: none;
+}
+
+
+.overflow-x{
+    /* ataca o eixo de x */
+    background-color: aquamarine;
+    width: 300px;
+    height: 170px;
+    overflow-x: visible;
+    overflow-y: hidden;
+    margin: 0 auto;
+    display: inline-block;
+
+}
+
+.overflow-x p{
+    width: 500px;
+
+}
+
+.overflow-y{
+    /* ataca o eixo Y */
+    background-color: aquamarine;
+    width: 300px;
+    height: 170px;
+    overflow-y: visible;
+    margin: 0 auto;
+    display: inline-block;
+           
+}
+
+.overflow-y p{
+    width: 500px;
+
+
+}
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframes e vídeos</title>
+    <meta name="description" content="descrição do site">
+    <meta name="keywords" content="palavras, separadas, por, vírgula">
+    <meta name="author"content="autor do site wagner">
+    <link rel="stylesheet" href="5-iframes e vídeos.css">
+</head>
+<body>
+  
+    <!-- controls- para controles do vídeo
+
+      loop- para ficar rodando infinito
+
+      meted- o vídeo começa mudo
+
+      autopaly- quando abro a pagina o vídeo ja abre isso so acontece se a função muted estiver ativada  -->
+        <header>
+            <div class="menu">
+                <h1>logo</h1>
+            </div>
+          <video controls loop muted autoplay>
+            <source src="midia/meu-vídeo.mp4.mp4" type="video/mp4">
+            <source src="midia/meu-vídeo.m4v.m4v" type="video/m4v">
+            <source src="midia/meu-vídeo.webm.webm" type="video/webm">
+
+          </video>
+        </header>
+
+        
+      <!-- adicina sites externos 
+     i é de inline
+    frameborder é a borda -->
+    <iframe src="https://www.cursoemvideo.com" frameborder="0">
+    </iframe>
+
+    <audio controls autoplay>
+      <source src="audio/interface-124464.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>

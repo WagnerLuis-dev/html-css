@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+
+.pai{
+    width: 100%;
+    background-color: aquamarine;
+    padding: 90px 0;
+    text-align: center;
+}
+
+.item{
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    margin: 20px 0;
+    display: inline-block;
+    /* ficaram em colunos pois coloquei divs segas no html */
+}
+
+/* aplicando estilos de dois em dois ou de três em três (3n + 1) */
+.pai div:nth-of-type(2n + 1) div{
+    background-color: cornflowerblue;
+}
+
+/* aplica estilo na ultima */
+.pai p:last-of-type{
+    background-color: darkgreen;
+}
+
+/* aplica estilo na primeira */
+/* caso eu coloque first-child não funciona pois estou dizendo que ele é o primeiro filho */
+.pai p:first-of-type{
+    background-color: chartreuse;
+}

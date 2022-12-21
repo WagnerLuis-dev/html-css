@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+
+.conteiner{
+    margin: 0 auto;
+    background-color: blue;
+    max-width: 1200px;
+    width: 98%;
+    
+}
+
+.box{
+    border: 1px solid black;
+    width: 33.3%;
+    background-color: blueviolet;
+    height: 300px;
+    float: left;
+}
+
+@media  screen and (max-width: 780px) {
+    .box{
+        width: 40%;
+        /* background-color: antiquewhite; */
+        /* o float não obedece o text-align center então coloco display inline block */
+        display: inline-block;
+        float: none;
+        margin-top: -4px;
+        margin-left: -4px;
+    }
+
+    .conteiner{
+        text-align: center;
+    }
+}
+
+/* para display inline blck precisa ficar dando overfloy hidden e magin right 0 em certas cituações */
+.conteiner2{
+    width: 98%;
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(255, 0, 43);
+}
+
+.box2{
+    width: 33.3%;
+    height: 300px;
+    background-color: rgb(1, 13, 9);
+    display: inline-block;
+    max-width: 300px;
+    margin-left: -4px;
+    margin-bottom: -4px;
+}
+
+@media  screen and (max-width: 780px) {
+    .conteiner2{
+      width: 99%;
+    }
+
+    .box2{
+        width: 50%;
+        border: 1px solid rgb(42, 159, 165);
+    }
+    
+}
+
+@media screen and (max-width: 698px){
+    .box2{
+        width: 100%;
+    }
+    
+}

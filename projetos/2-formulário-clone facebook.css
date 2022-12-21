@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.068);
+}
+
+img{
+    width: 250px;
+    
+}    
+
+
+.logo{
+    text-align: left;
+    /* background-color: aqua; */
+    width: 400px;
+    /* margin: 170px 0 0 ; */
+}
+
+.texto{
+    /* background-color: aquamarine; */
+    width: 400px;
+    /* bottom: 180px; */
+
+  position: absolute;
+  top: 102px;    
+
+   
+}
+
+h2{
+    font-weight: 200;
+    font-size: 25.4px;
+}
+
+form{
+    width: 30%;
+    margin: 100px auto;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute ;
+    left: 50%;
+    bottom: 25px;
+    
+}
+fieldset{
+    text-align: center;
+    margin: 50px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    width: 370px;
+    height: 350px;
+    /* float: left; */
+}
+
+.input1, .senha{
+    /* border: solid 1px rgb(220, 255, 243); */
+    margin-top: 5px;
+    text-align: center;
+
+}
+
+.input1 input, .senha input{
+    /* border: 1px solid blue; */
+    border-radius: 6px;
+    width: 330px;
+    padding: 14px 16px;
+    margin-top: 10px;
+    border: solid 1px rgba(23, 23, 22, 0.144);
+    font-size: 15px;
+    
+}
+.input1 input:focus, .senha input:focus{
+    outline: inherit;
+    border: 1px solid #1877f2;;
+    /* background-color: rgb(242, 240, 255); */
+
+}
+
+
+.logar{
+   margin: 10px 0;
+}
+
+.logar input{
+    width: 330px;
+    border: none;
+    background-color: #1876f2f7;
+    border-radius: 6px;
+    padding: 14px 16px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+   cursor: pointer; 
+}
+
+.logar input::placeholder[type= submit]{
+    color: #fff;
+
+}
+
+.link{
+    margin: 10px 0 30px;
+}
+
+.link a{
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+hr{
+    border-width: 0;
+    width: 93%;
+    margin: 0 auto;
+    height: 0.1px;
+    background-color: rgba(0, 0, 0, 0.18);  
+  
+}
+
+.novaconta {
+    margin: 20px 0;
+    
+}
+
+.novaconta input{
+    border: none;
+    border-radius: 6px;
+    background-color: #42b72a;
+    color: white;
+    width: 160px;
+    padding: 14px 16px;
+    font-weight: bold;
+    cursor: pointer;
+
+
+}
+
+.box{
+    position: absolute;
+    width: 700px;
+    /* background-color: aqua; */
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
+    top: 220px;
+    left: 360px;
+
+}
+
+
+.textof{
+    position: absolute;
+    top: 590px;
+    left: 810px;
+    width: 420px;
+    /* background-color: #1877f2; */
+    text-align: center;
+    width: 360px;
+
+}
+
+.textof span span{
+    color: black;
+    font-weight: 600;
+    
+}
+
+.inputf span{
+    text-align: center;
+}

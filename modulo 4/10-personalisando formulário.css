@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+html, body{
+    height: 100%;
+}
+
+#file{
+    display: none;
+}
+
+label{
+    cursor: pointer;
+    background-color: aquamarine;
+    text-align: center;
+    display: block;
+    width: 220px;
+    height: 40px;
+    color: rgba(97, 8, 239, 0.836);
+    /* alinhar na vertical autura da linha */
+    line-height: 40px;
+    margin: 40px auto;
+}
+
+
+form{
+    text-align: center;
+    background-color: blue;
+
+}
+
+form select{
+    width: 240px;
+    height: 40px;
+    /* usamos esse prefixo para identificar em qual navegador ele irá ocorrer */
+    /* chome e firefox */
+    -webkit-appearance: none;
+    /* mozila */
+    -moz-appearance: none;
+    text-align: center;
+    /* para colocarmos algo de fundo usamos background-image */
+    
+}
+
+/* temos que colocar separado essa propriedade para o interne explore */
+select::-ms-expand{
+    display: none;
+}
+
+
+/* personalizando checkbox */
+#id1, #id2{
+    display: none;
+}
+
+/* + quer dizer o conteúdo que está abaixo */
+/* checked serve para input, checkbox, radio, option, quer dizer que se o elementor estiver selecionado ela ira receber o seguinte estilo  */
+.input:checked + label{
+    background-color: blueviolet;
+}
+
+.input + label{
+    width: 50px;
+}

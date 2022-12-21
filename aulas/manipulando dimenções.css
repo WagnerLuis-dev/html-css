@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+/*site responsivo( se adequa a qualqueer tela)*/
+
+.dim{
+    background-color: blue;
+    color:#41e1d9;
+    /*definindo largura máxima*/
+    max-width: 100%;
+    /*definindo altura máxima*/
+   /*max-height: 100%;*/
+   height: auto;
+
+
+    
+
+    
+}
+
+.dim > h1{
+
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.dim > p{
+
+    text-align: center;
+}
+
+.dim > p > span{
+
+    color: yellowgreen
+}

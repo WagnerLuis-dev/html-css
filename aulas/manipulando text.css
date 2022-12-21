@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.texto > h1{
+    color: aqua;     
+    /*alinhar o texto*/
+    text-align: center;
+    /*indica a família da fonte*/
+    /*usamos "" para fontes com espaçamento 
+      ex:"times new roma"*/
+    font-family: cursive;
+    /*definição do tamanho da fonte*/
+    font-size: 40px;
+    /*istilo da fonte em italico*/
+    font-style: italic;
+    /*define o peso da fonte*/
+    /*por padrão o h1 vem de padrão bold por ser um título */
+    font-weight: normal;
+    /* as letas minisculas ficam um pouco maiores*/
+    font-variant: small-caps;
+
+
+
+}
+
+.texto{
+    /*largura*/
+    width: 1280px;
+    /*margem de cima e baixo, no centro*/
+    margin: 40px auto ;
+    background-color: blue;
+    
+    
+}
+
+.texto > p{
+    color: aqua;
+    text-align: center;
+    margin-top: 12px;
+    font-size: 15px;
+    font-family: cursive;
+    /*espaçamento entre as linhas*/
+    line-height: 30px;
+    /*espaçamento entre letras*/
+    letter-spacing: 5px;
+    
+}

@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans:ital,wght@1.300 & display=swap');
+
+
+
+/* cabesalho */
+.header{
+    background-color: #212343;
+    width: 100%;
+    /* colacando para responsivo */
+    padding: 0 2%;
+    height: 60px;
+}
+
+.header img{
+    
+    margin: 15px 0;
+    /* width: 1280px;
+    margin: 0 auto;
+    padding: 15px 0; */
+    /* background-color: antiquewhite; */
+}
+
+
+/* imagem background */
+.conteinerback{
+    width: 100%;
+    /* colocando para respon.. */
+    padding: 0 2%;
+    height: 557px;
+    background-image: url(../imagens/header_bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.conteinerback > .center{
+    height: 100%;
+
+}
+.formulário{
+    background-color: rgb(220, 221, 221);
+    width: 400px;
+    height: calc(100% + 30px);
+    float: right;
+    /* margin: 0 30px; */
+    position: relative;
+    top: -15px;
+    border: 5px solid #7a7b7d8c;
+    padding: 10px;
+    /* o nosso elemento irá começar depois da borda do padding */
+    background-clip: padding-box;
+    /* background-origin serve para fazer isso em imagens tem o mesmo conceito*/
+    
+}
+form{
+    height: 557px;
+}
+form h2{
+    font-weight: normal;
+    color:  #212343;
+    font-size: 21px;
+  
+}
+
+/* quando vlicarmos no input irá acontecer: */
+input:focus{
+    outline: 0;
+    border: #040fa8 2px solid;
+}
+
+.input-conteiner{
+    margin-top: 40px;
+    /* background-color: #212343; */
+    text-align: center;
+}
+
+.input-conteiner span{
+    display: inline-block;
+    /* preciso definir a largura para ele poder ser inline-block */
+    width: 100%;
+    font-size: 17px;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 12px;
+
+}
+
+.input-conteiner input{
+    width: 344px;
+    height: 55px;
+    
+}
+
+.conteiner-submit{
+    text-align: center;
+}
+
+.input-conteiner input[type="submit"]{
+    margin-top: 100px;
+    width: 280px;
+    height: 56px;
+    background-color: #363A6D;
+    border: 0;
+    cursor: pointer;
+    color: #f5f5f9;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+/* efeito hover  */
+
+.conteiner-submit input[type="submit"]:hover{
+    background-color: #272b68;
+}
+
+.lista{
+    /* tenho que dar para o elemento fique ao lado e o formulário obedeça top  */
+     float: left;
+     background-color: rgba(33, 35, 67, 0.489);
+     color: #f5f5f9;
+     width: 519px;
+     height: 270px;
+     /* margin:  30px 0 0; */
+     margin: 100px 0;
+     padding: 30px;
+     /* distância entre linhas */
+     line-height: 30px;
+}
+
+.lista ul{
+    list-style-position: inside;
+    
+}
+
+/* seção 2 */
+
+.seção2{
+    
+    padding:40px;
+     width: 100%;
+    /* height: 200px; */
+    background-color:rgba(155, 153, 151, 0.55);
+}
+
+.texto-seção2{
+    /* width: 700px; */
+    /* respon.. */
+    width: 100%;
+    
+    text-align: center;
+    margin: 0 auto;
+    
+    
+}
+
+.seção2 p{
+    /* o p não fica centralizado, mas, fica uniforme nas margens */
+    text-align: justify;
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.seção2 h2{
+    margin-bottom: 10px;
+}
+
+/* seta */
+.seta{
+    position: relative;
+    /* top: 10px; */
+    /* respon.. */
+    top: 60px;
+    width: 40px;
+    height: 40px;
+    background-image: url(../imagens/arrow.png);
+    /* fazendo com que a imagem não fique cortada */
+    background-size: 100% 100%;
+    /* deixando no centro */
+    left: 50%;
+    margin-left: -20px;
+}
+
+/* seção 3 */
+
+.seção3{
+    width: 100%;
+    /* height: 600px; */
+    background-color: #f4f4f5;
+    padding: 90px 0;
+    text-align: center;
+}
+
+.conteiner3{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.text-icon{
+    width: 33.3%;
+    text-align: center;
+    padding: 30px;
+
+    
+}
+
+.titulo{
+    font-weight: normal;
+ text-align: center;
+ margin-bottom: 30px;
+}
+
+ion-icon{
+    font-size: 70px;
+    color:#363A6D;
+}
+
+.text-icon h2{
+    font-weight: normal;
+}
+
+.text-icon p{
+    text-align: center;
+    margin: 20px 40px;
+}
+
+.rodape{
+    border-top: solid 4px #84848653;
+    padding: 30px 0;
+    text-align: center;
+    
+}
+
+
+/* media queries */
+
+@media screen and (max-width: 1024px){
+
+    
+    .header{
+        position: relative;
+        padding: 5px 0;
+        width: 100%;
+        text-align: center;
+        width: 100%;
+    }   
+
+    .conteinerback{
+        width: 100%;
+        /* colocando para respon..*/ 
+        padding: 30px;
+        height: auto;
+        overflow: auto;
+        text-align: center;
+    }
+    .formulário{
+        max-width: 400px;
+        height: 100%;
+        float: right;
+        width: 60%;
+        padding: 10px;
+        top: 0;
+    
+    }
+    .lista{
+        /* tenho que dar para o elemento fique ao lado e o formulário obedeça top  */
+         float: left;
+         color: #f5f5f9;
+         height: auto;
+         padding: 30px ;
+         width: 40%;
+         max-width: 500px;
+         margin-bottom: 30px;
+    }
+    .input-conteiner input{
+        width: 100%;
+        height: 55px;
+        
+    }
+
+    .input-conteiner span{
+        margin-left: 0;
+    }
+
+    .conteiner3{
+        flex-direction: column;
+    }
+    
+    .text-icon{
+        width: 100%;
+    }
+} 
+
+
+
+@media screen and (max-width: 820px){
+    .conteinerback{
+        text-align: center;
+    }
+
+    .lista{
+        float: none;
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .formulário{
+        width: 100%;
+        float: none;
+        display: inline-block;
+    }
+
+    .conteiner3{
+        flex-direction: column;
+    }
+
+    .text-icon{
+        width: 100%;
+    }
+
+    .formulário input[type= submit]{
+        width: 80%;
+        margin-top: 70px;
+    }
+}
+/* @media screen and (max-width: 428px){
+
+    .center{
+        /* text-align: center;
+    }
+    .lista{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    
+    .formulário{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .formulário span{
+        text-align: left;
+        margin-left: 20px;
+    }
+}  */

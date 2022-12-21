@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.d1 {
+    width: 400px;
+    height: 400px;
+    color: aqua;
+    background-color: rgb(50, 99, 205);
+}
+
+.sub1 {
+    width: 300px;
+    background-color: brown;
+
+}
+
+.d1 h1 {
+    display: inline-block;
+    /* inherit quer dizer aquilo que herda 
+    a caracteristica do pai */
+    width: inherit;
+    height: inherit;
+    background-color: inherit;
+}
+
+
+.d2 {
+    background-color: darkblue;
+    color: rgb(157, 165, 42);
+}
+
+.d2 h1{
+    /* initial quer dizer que o elemento
+    vai exibir o valor inicial (padrão)  */
+    color: initial;
+}
+
+/* auto é usado para a altura automatica */
+
+

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.tit h1{
+    color: rgb(111, 0, 255);
+    background-color: aqua;
+    margin-top: 10px;
+}
+
+.tit h2 {
+    color: rgb(0, 149, 255);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.ord li{
+    margin-left: 20px;
+    margin-bottom: 5px;
+    /*definindo circulo ao invez de número*/
+    /*list-style-type: circle*/;
+    /*colocando lista dentro do bloco*/
+    list-style-position: inside;
+}
+
+
+.tit2 h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: rgb(0, 149, 255);
+}
+
+.nord li{
+    margin: auto 20px;
+}
+

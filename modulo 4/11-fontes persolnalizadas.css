@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html, body{
+    height: 100%;
+    
+
+
+
+}
+/* chamando font baixada no pc */
+/* @font-face{
+    font-family: "minha fonte";
+    src: url(digita o caminho);
+} */
+
+/* importando fonte */
+h2{
+    font-weight: 100;
+    background-color: aqua;
+    font-family:"Fredericka the Great", sans-serif;
+    font-size: 40px;
+     
+}
+
+/* usando * para pegar todos os elementos e aplicar a seguinte font, .text * pega tudo, * pega somente o que está dentro do elemento */
+.text *{
+    font-family: "Fredericka the Great", sans-serif;
+}
+
+
+
+/* usando important para independente do nível de especificação aplicar o estilo */
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+

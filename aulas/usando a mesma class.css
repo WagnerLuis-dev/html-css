@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.tipo1{
+    font-size: 40px;
+    color: rgb(0, 51, 255);
+}
+
+.link{
+    color: rgb(115, 255, 0)
+    ;
+}
+
+.tipo2{
+    /*o código é lido de baixo para cima*/
+    /*dependendo da ordem de espicificação*/
+    color: blueviolet;
+}

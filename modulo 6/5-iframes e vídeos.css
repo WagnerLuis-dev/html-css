@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+
+    width: 100%;
+    position: relative;
+    height: 30vh;
+    /* overflow: hidden; */
+}
+iframe{
+    margin-top: 500px;
+    width: 560px;
+    height: 400px;
+    /* display: none; */
+}
+
+header video{
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+}
+
+.menu{
+    color: bisque;
+    margin-top: 20px;
+    position: absolute;
+    /* padding: 20px 0; */
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+}

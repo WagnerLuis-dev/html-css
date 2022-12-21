@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+html,body{
+    height: 100%;
+}
+
+minhatag{
+    display: block;
+    background-color: aqua;
+}
+
+.one{
+    background-color: aqua;
+    width: 100px;
+}

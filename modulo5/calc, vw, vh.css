@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.sibebar{
+    float: left;
+    width: 300px;
+    height: 100%;
+    background-color: aqua;
+}
+
+.conteiner{
+    float: left;
+    /* mistura valores px % etc */
+    width: calc(100% - 300px);
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.box1{
+    width: calc((100% / 3) + 10px);
+    height: 90px;
+    background-color: rgb(8, 38, 149);
+}
+
+/* vh ´= viewport height
+   vw = viewport whidth eles  não levam em conta a siberbar eles passan dela*/
+.box2{
+    background-color: blue;
+    width: 100vw;
+    height: 200vh;
+}

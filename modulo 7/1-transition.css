@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.box{
+    width: 300px;
+    height: 400px;
+    background-color: blueviolet;
+    /* duração da transição */
+    -webkit-transition-duration: 2s;
+    transition-duration: 2s;
+
+
+    /* quero animar somente na largura -webkit-transition-property: width; */
+    /* transition-property: width; */
+
+    /* quando chegar em 1s a transição começa */
+    -webkit-transition-delay: 1s;
+    transition-delay: 1s;
+
+    /* define as curvas de tempo da transição */
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+
+    /* webkit é para renderizar no safari */
+}
+
+.box:hover{
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(43, 52, 226);
+}
