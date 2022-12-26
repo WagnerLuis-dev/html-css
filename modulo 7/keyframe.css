@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+
+.sessão1{
+    width: 100%;
+    height: 800px;
+    background-color: blueviolet;
+    position: relative;
+}
+
+.subsessão1{
+    width: 25%;
+    height: 300px;
+    background-color: aqua;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 50px;
+
+    animation-duration: 3s;
+    animation-name: slider;
+    animation-delay: 1s;
+    
+}
+
+
+@keyframes slider{
+    0%{
+       margin-left: 0; 
+    }
+
+    100%{
+        margin-left: 50px;
+    }
+}
+
+
+.sessão2{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(43, 43, 226);
+    position: relative;
+}
+
+.subsessão2{
+    width: 25%;
+    height: 300px;
+    background-color: aqua;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 50px;
+
+    animation-duration: 3s;
+    animation-name: slider2;
+    animation-delay: 1s;
+    
+    
+}
+
+
+@keyframes slider2{
+    0%{
+       margin-left: 0; 
+    }
+
+    100%{
+        margin-left: 50px;
+    }
+}
